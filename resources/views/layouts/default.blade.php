@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Laracarte</title>
+	<title>{{  pages_title($title ?? '') }}</title>
 	<meta charset="UTF-8">
 
 	
