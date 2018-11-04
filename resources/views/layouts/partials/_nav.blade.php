@@ -5,8 +5,8 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="nav navbar-nav">
-      <li class="nav-item active"><a class="nav-link" href=" {{ route('root_path') }} ">Home <span class="sr-only">(current)</span></a></li>
-      <li class="nav-item">  <a class="nav-link" href=" {{ route('about_path') }} ">About</a></li>
+      <li class="nav-item {{set_active_route('root_path')}}"><a class="nav-link" href=" {{ route('root_path') }} ">Home <span class="sr-only">(current)</span></a></li>
+      <li class="nav-item {{set_active_route('about_path')}}">  <a class="nav-link" href=" {{ route('about_path') }} ">About</a></li>
       <li class="nav-item"> <a class="nav-link" href="#">Artisans</a></li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
