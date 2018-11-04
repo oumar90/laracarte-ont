@@ -21,7 +21,7 @@
           <a class="dropdown-item" href="#">Larachat</a>
         </div>
       </li>
-      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      <li class="nav-item {{set_active_route('contact_path')}}"><a class="nav-link" href="{{route('contact_path')}}">Contact</a></li>
     </ul>
 
     <ul class="navbar-nav" style="padding-left: 70%;">
