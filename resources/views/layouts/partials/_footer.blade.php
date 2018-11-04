@@ -1,6 +1,6 @@
 <footer class="text-center">
 	<p>	
-	&copy; 2018 · {{config('app.name')}} by <a href="www.twitter.com/oudjira">@oudjira</a> - A <a href="www.laramap.com">Laramap</a> clone app.
+	&copy; 2018 · {{ config('app.name') }} by <a href="https://www.twitter.com/oudjira">@oudjira</a> - A <a href="www.laramap.com">Laramap</a> clone app.
 </p>
 
 <p>
