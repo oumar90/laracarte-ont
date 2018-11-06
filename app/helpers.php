@@ -5,13 +5,8 @@ if(!function_exists('pages_title')){
 	function pages_title($title)
 	{
 		$base_title = config('app.name'). " - list of artisans";
-		if($title == '')
-		{
-			return $base_title;
-		}else{
-			return $title . ' | '. $base_title;
-		}
-
+		
+		return empty($title) ? $base_title : sprintf("%s | %s", $title, $base_title);
 	}
 }
 
